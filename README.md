@@ -1,5 +1,5 @@
 # 汽车大数据示例
-···text
+```text
 car_data/                   # 项目根目录
 ├── data/                   # 原始或示例数据（不存放大文件）
 │   └── README.md           # 数据来源和获取说明
@@ -29,4 +29,4 @@ car_data/                   # 项目根目录
 ├── .gitignore              # 忽略规则
 ├── requirements.txt        # Python 依赖
 └── README.md               # 项目概览及快速上手
-···
+```
