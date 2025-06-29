@@ -9,25 +9,15 @@ import time
 
 months = ['01', '02', '03', '04', '05']
 
-for month in months:
-    url = 'https://www.autohome.com.cn/rank/1-1-0-0_9000-x-x-x/2025-{month}.html'.format(month=month)
-
-    # url = 'https://www.autohome.com.cn/rank/1-1-0-0_9000-x-x-x/2025-05.html'
-    headers = {
-        # 'User-Agent': UserAgent().random
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0',
-        'Cookie': '_ac=2m5f32iqF-OXXs-5r5K5goZL7ylWN3qaD8VECiKjuy1m2jmyzf5S; __ah_uuid_ng=; cookieCityId=510100; series_ask_price_popup=2025-06-26; historyseries=7806%2C66%2C5769%2C7793; ahpvno=24; ahrlid=1750948929674jhFU2xyreL-1750948959590',
-        'Referer': ''
-    }
 
 
-    class car_sales():
+class car_sales():
 
         def __init__(self):
             self.number = ''  # 排名
             self.name = ''  # 车名
             self.sales = ''  # 销量
-            self.month = ''
+            self.month = '' #月份
 
         def __str__(self):
             return 'number:%s;' \
@@ -40,7 +30,7 @@ for month in months:
                    self.month)
 
 
-    def getData(url, headers):
+def getData(url, headers):
         chrome_options = Options()
         chrome_options.add_argument('--headless')
         chrome_options.add_argument(
@@ -71,7 +61,7 @@ for month in months:
             driver.quit()
 
 
-    def analyzeData(html):
+def analyzeData(html,month):
         ls = []
         soup = BeautifulSoup(html, 'lxml')
         # 查找第一个 div 元素
@@ -144,7 +134,7 @@ for month in months:
         return ls
 
 
-    def writeCSV(ls):
+def writeCSV(ls,month):
         file_name = 'car_sales_2025{month}.csv'.format(month=month)
         with open(file_name, 'w', encoding='utf-8', newline='') as f:
             writer = csv.writer(f)
@@ -152,12 +142,21 @@ for month in months:
             for car_sale in ls:
                 writer.writerow([car_sale.number, car_sale.name, car_sale.sales, car_sale.month])
 
+for month in months:
+    url = 'https://www.autohome.com.cn/rank/1-1-0-0_9000-x-x-x/2025-{month}.html'.format(month=month)
 
+    # url = 'https://www.autohome.com.cn/rank/1-1-0-0_9000-x-x-x/2025-05.html'
+    headers = {
+        # 'User-Agent': UserAgent().random
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0',
+        'Cookie': '_ac=2m5f32iqF-OXXs-5r5K5goZL7ylWN3qaD8VECiKjuy1m2jmyzf5S; __ah_uuid_ng=; cookieCityId=510100; series_ask_price_popup=2025-06-26; historyseries=7806%2C66%2C5769%2C7793; ahpvno=24; ahrlid=1750948929674jhFU2xyreL-1750948959590',
+        'Referer': ''
+    }
     html = getData(url=url, headers=headers)
     # print(html)
-    ls = analyzeData(html)
-    #print(ls)
+    ls = analyzeData(html,month)
+    print(ls)
 
-    writeCSV(ls)
+    writeCSV(ls,month)
 
 
