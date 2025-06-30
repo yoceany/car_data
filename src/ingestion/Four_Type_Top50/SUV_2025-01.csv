@@ -1,51 +1,51 @@
-类别,月份,排名,车型,销量,口碑评分,价格区间
-SUV,2025-01,01,星越L,29434,4.52,14.77-17.97万
-SUV,2025-01,02,Model Y,25694,4.40,26.35-31.35万
-SUV,2025-01,03,长安CS75 PLUS,23493,4.50,11.39-14.99万
-SUV,2025-01,04,博越L,21839,4.50,9.99-14.97万
-SUV,2025-01,05,银河星舰7 EM-i,20328,4.48,9.78-13.08万
-SUV,2025-01,06,宋PLUS新能源,20138,4.48,13.58-18.08万
-SUV,2025-01,07,瑞虎8,19949,4.51,9.78-16.19万
-SUV,2025-01,08,锋兰达,17242,4.40,12.58-18.48万
-SUV,2025-01,09,途观L,16865,4.38,18.68-26.68万
-SUV,2025-01,10,本田CR-V,16076,4.44,18.59-26.39万
-SUV,2025-01,11,宋Pro新能源,15698,4.45,10.28-14.28万
-SUV,2025-01,12,捷途X70,14351,4.86,10.69-14.99万
-SUV,2025-01,13,探岳,14284,4.48,19.89-25.99万
-SUV,2025-01,14,理想L6,13990,4.52,24.98-27.98万
-SUV,2025-01,15,RAV4荣放,13602,4.53,16.98-23.88万
-SUV,2025-01,16,奥迪Q5L,13348,4.57,34.98-42.98万
-SUV,2025-01,17,途岳,13201,4.46,12.59-21.66万
-SUV,2025-01,18,银河E5,12880,4.52,10.78-14.38万
-SUV,2025-01,19,问界M9,12483,4.66,46.98-56.98万
-SUV,2025-01,20,威兰达,12252,4.47,17.38-26.48万
-SUV,2025-01,21,哈弗大狗,11767,4.58,12.39-14.99万
-SUV,2025-01,22,智界R7,11422,4.55,24.98-33.98万
-SUV,2025-01,23,奔驰GLC,10999,4.47,42.78-53.13万
-SUV,2025-01,24,皓影,10944,4.47,18.59-26.39万
-SUV,2025-01,25,宋L DM-i,10689,4.43,13.58-17.58万
-SUV,2025-01,26,昂科威Plus,10331,4.55,22.99-25.99万
-SUV,2025-01,27,卡罗拉锐放,10132,4.31,12.98-18.48万
-SUV,2025-01,28,宝马X5,9413,4.46,61.50-83.00万
-SUV,2025-01,29,长安欧尚X5 PLUS,9049,4.42,9.19-11.49万
-SUV,2025-01,30,哈弗H6,9022,4.58,9.89-14.39万
-SUV,2025-01,31,红旗HS5,8959,4.55,18.38-24.98万
-SUV,2025-01,32,元PLUS,8902,4.52,11.58-14.78万
-SUV,2025-01,33,宝马X3,8542,4.45,34.99-48.69万
-SUV,2025-01,34,问界M7,8443,4.55,24.98-32.98万
-SUV,2025-01,35,捷途旅行者,8174,4.53,13.99-23.99万
-SUV,2025-01,36,逍客,7824,4.51,12.59-17.49万
-SUV,2025-01,37,瑞虎7,7712,4.51,7.49-13.99万
-SUV,2025-01,38,银河L7,7630,4.45,11.58-16.97万
-SUV,2025-01,39,长安UNI-Z新能源,6877,4.43,11.79-13.39万
-SUV,2025-01,40,缤越,6795,4.55,6.68-9.68万
-SUV,2025-01,41,唐新能源,6650,4.46,17.98-26.98万
-SUV,2025-01,42,理想L7,6493,4.56,30.18-35.98万
-SUV,2025-01,43,iCAR V23,6397,4.60,10.98-14.98万
-SUV,2025-01,44,领克Z20,6368,4.51,13.59-15.09万
-SUV,2025-01,45,零跑C10,6358,4.54,12.28-16.88万
-SUV,2025-01,46,元UP,6050,4.46,9.68-11.98万
-SUV,2025-01,47,汉兰达,5999,4.41,24.98-32.58万
-SUV,2025-01,48,零跑C11,5948,4.48,14.88-20.98万
-SUV,2025-01,49,乐道L60,5912,4.53,20.69-25.59万
-SUV,2025-01,50,沃尔沃XC60,5765,4.56,39.69-47.49万
+类别,月份,序号,车型,销量,口碑评分,价格区间,图片链接
+SUV,2025-01,01,星越L,29434,4.52,14.77-17.97万,https://g.autoimg.cn/@img/car3/cardfs/series/g24/M00/8F/37/872x666_autohomecar__Chxky2PgczuAfLpXAAJkj3KKYDI686.png
+SUV,2025-01,02,Model Y,25694,4.40,26.35-31.35万,https://g.autoimg.cn/@img/car3/cardfs/series/g31/M06/77/D5/872x666_autohomecar__ChxoHWeS9caAf5JGAAaDqTsVyiE464.png
+SUV,2025-01,03,长安CS75 PLUS,23493,4.50,11.39-14.99万,https://g.autoimg.cn/@img/car3/cardfs/series/g32/M0B/27/BA/872x666_autohomecar__Chtk2WcOCvSAUfFFAAgnlkskNZs043.png
+SUV,2025-01,04,博越L,21839,4.50,9.99-14.97万,https://g.autoimg.cn/@img/car2/cardfs/series/g30/M06/6D/81/872x666_autohomecar__ChxknGgIWkqAZHZJAAk5X3B5rVY419.png
+SUV,2025-01,05,银河星舰7 EM-i,20328,4.48,9.78-13.08万,https://g.autoimg.cn/@img/car3/cardfs/series/g32/M01/3B/24/872x666_autohomecar__ChxkPmblQPiAXZj6AAZPE3cU230496.png
+SUV,2025-01,06,宋PLUS新能源,20138,4.48,13.58-18.08万,https://g.autoimg.cn/@img/car2/cardfs/series/g30/M09/04/73/872x666_autohomecar__ChxknGV4DzSAHG4RAAdLphsVYos293.png
+SUV,2025-01,07,瑞虎8,19949,4.51,9.78-16.19万,https://g.autoimg.cn/@img/car3/cardfs/series/g16/M14/7A/D2/872x666_autohomecar__ChsEzWDySFaAKqAOAAXuzLRNiAw734.png
+SUV,2025-01,08,锋兰达,17242,4.40,12.58-18.48万,https://g.autoimg.cn/@img/car2/cardfs/series/g28/M07/81/EF/872x666_autohomecar__ChwFkmGqJ0eAWaXwAAoASTZZKBE601.png
+SUV,2025-01,09,途观L,16865,4.38,18.68-26.68万,https://g.autoimg.cn/@img/car3/cardfs/series/g32/M08/68/CE/872x666_autohomecar__ChxkPmZhJvOAJn5pAAgvy8MPV8o426.png
+SUV,2025-01,10,本田CR-V,16076,4.44,18.59-26.39万,https://g.autoimg.cn/@img/car2/cardfs/series/g27/M03/90/D7/872x666_autohomecar__ChtlxmSelOeAdMFjAAiiXGL6CXM783.png
+SUV,2025-01,11,宋Pro新能源,15698,4.45,10.28-14.28万,https://g.autoimg.cn/@img/car2/cardfs/series/g30/M0A/44/B1/872x666_autohomecar__CjIFU2V4D2GAd7pCAAhNZPm_6CA520.png
+SUV,2025-01,12,捷途X70,14351,4.86,10.69-14.99万,https://g.autoimg.cn/@img/car2/cardfs/series/g31/M04/5B/58/872x666_autohomecar__ChxoHWYfKkeAbZ6uAAktQqI4Scg586.png
+SUV,2025-01,13,探岳,14284,4.48,19.89-25.99万,https://g.autoimg.cn/@img/car3/cardfs/series/g32/M08/29/06/872x666_autohomecar__ChxkPmc1iqCAAZjkAAlW5pX_ogI753.png
+SUV,2025-01,14,理想L6,13990,4.52,24.98-27.98万,https://g.autoimg.cn/@img/car2/cardfs/series/g32/M09/5A/8C/872x666_autohomecar__Chtk2WgvFLyARrHKAAUPN8FeUIE427.png
+SUV,2025-01,15,RAV4荣放,13602,4.53,16.98-23.88万,https://g.autoimg.cn/@img/car3/cardfs/series/g25/M0A/BC/08/872x666_autohomecar__ChsEmF2NaRqABUqTAAe4Ejo3j6M483.png
+SUV,2025-01,16,奥迪Q5L,13348,4.57,34.98-42.98万,https://g.autoimg.cn/@img/car2/cardfs/series/g28/M06/79/A0/872x666_autohomecar__ChxkmmgIjj-Acj-IAAdr482B40E863.png
+SUV,2025-01,17,途岳,13201,4.46,12.59-21.66万,https://g.autoimg.cn/@img/car3/cardfs/series/g32/M02/D5/2C/872x666_autohomecar__ChxkPmbRMQSAU_O7AAiy4uJJAnY601.png
+SUV,2025-01,18,银河E5,12880,4.52,10.78-14.38万,https://g.autoimg.cn/@img/car2/cardfs/series/g31/M06/2A/EA/872x666_autohomecar__ChxoHmYeIFSAbZilAAWZczPqzYs244.png
+SUV,2025-01,19,问界M9,12483,4.66,46.98-56.98万,https://g.autoimg.cn/@img/car3/cardfs/series/g25/M09/96/BE/872x666_autohomecar__ChtliGWKs_aAd5wqAAfvNPmxyyo816.png
+SUV,2025-01,20,威兰达,12252,4.47,17.38-26.48万,https://g.autoimg.cn/@img/car3/cardfs/series/g24/M00/FA/C1/872x666_autohomecar__ChwFjl6m2euAYiS0AAhUF85qvhE601.png
+SUV,2025-01,21,哈弗大狗,11767,4.58,12.39-14.99万,https://g.autoimg.cn/@img/car3/cardfs/series/g27/M07/C6/BD/872x666_autohomecar__ChwFkWLWFuOAGVARAAl67AXHTVA628.png
+SUV,2025-01,22,智界R7,11422,4.55,24.98-33.98万,https://g.autoimg.cn/@img/car2/cardfs/series/g32/M01/3F/6A/872x666_autohomecar__Chtk2Wbz3AKANjnsAAhNmPKhrPo659.png
+SUV,2025-01,23,奔驰GLC,10999,4.47,42.78-53.13万,https://g.autoimg.cn/@img/car3/cardfs/series/g28/M02/64/AD/872x666_autohomecar__CjIFVGRCV4uATX20AAidgPiKqI0830.png
+SUV,2025-01,24,皓影,10944,4.47,18.59-26.39万,https://g.autoimg.cn/@img/car2/cardfs/series/g25/M09/7E/95/872x666_autohomecar__ChtliGOlkF-AW557AAmGDynKn8A610.png
+SUV,2025-01,25,宋L DM-i,10689,4.43,13.58-17.58万,https://g.autoimg.cn/@img/car3/cardfs/series/g32/M0B/97/FF/872x666_autohomecar__ChxkPWaiD_KAe4qMAAdGMR1VQ9k810.png
+SUV,2025-01,26,昂科威Plus,10331,4.55,22.99-25.99万,https://g.autoimg.cn/@img/car2/cardfs/series/g32/M02/42/E4/872x666_autohomecar__ChxkPmcpeemAZ7XQAAp871FQs4E713.png
+SUV,2025-01,27,卡罗拉锐放,10132,4.31,12.98-18.48万,https://g.autoimg.cn/@img/car2/cardfs/series/g26/M07/AE/58/872x666_autohomecar__CjIFVmSiNxOAPF2IAAfOUjh4-LQ889.png
+SUV,2025-01,28,宝马X5,9413,4.46,61.50-83.00万,https://g.autoimg.cn/@img/car2/cardfs/series/g31/M08/B3/97/872x666_autohomecar__ChxoHmYhBHGAcuvhAAhJqbwiZEs209.png
+SUV,2025-01,29,长安欧尚X5 PLUS,9049,4.42,9.19-11.49万,https://g.autoimg.cn/@img/car3/cardfs/series/g25/M05/72/45/872x666_autohomecar__ChwFj2NxtfeARS-NAAlEhOOcduE831.png
+SUV,2025-01,30,哈弗H6,9022,4.58,9.89-14.39万,https://g.autoimg.cn/@img/car3/cardfs/series/g31/M01/64/43/872x666_autohomecar__ChxoHmYfX3SAVRGnAAgxPUKe8E4923.png
+SUV,2025-01,31,红旗HS5,8959,4.55,18.38-24.98万,https://g.autoimg.cn/@img/car2/cardfs/series/g30/M04/EE/74/872x666_autohomecar__ChxknGRY7jGAaZ8dAAk912C4Q7w500.png
+SUV,2025-01,32,元PLUS,8902,4.52,11.58-14.78万,https://g.autoimg.cn/@img/car2/cardfs/series/g31/M01/45/06/872x666_autohomecar__ChxoHmfH_HmASVmOAAeJPWhuAfk369.png
+SUV,2025-01,33,宝马X3,8542,4.45,34.99-48.69万,https://g.autoimg.cn/@img/car2/cardfs/series/g32/M02/AF/29/872x666_autohomecar__ChxkPmdoy8eAScehAAfj3Y60U0A208.png
+SUV,2025-01,34,问界M7,8443,4.55,24.98-32.98万,https://g.autoimg.cn/@img/car2/cardfs/series/g32/M08/DD/5C/872x666_autohomecar__ChxkPmbRhumAR_VxAAnhunHYbW4982.png
+SUV,2025-01,35,捷途旅行者,8174,4.53,13.99-23.99万,https://g.autoimg.cn/@img/car3/cardfs/series/g27/M09/67/0D/872x666_autohomecar__CjIFVWUT8bmAA5sQAArNDCAH3jQ095.png
+SUV,2025-01,36,逍客,7824,4.51,12.59-17.49万,https://g.autoimg.cn/@img/car3/cardfs/series/g27/M04/9F/C6/872x666_autohomecar__ChtlxmTVnoiAO2gXAAhg43eeU6E094.png
+SUV,2025-01,37,瑞虎7,7712,4.51,7.49-13.99万,https://g.autoimg.cn/@img/car2/cardfs/series/g31/M0B/7D/4B/872x666_autohomecar__ChtlyGfJUciAfonTAAe6UTEGoWE626.png
+SUV,2025-01,38,银河L7,7630,4.45,11.58-16.97万,https://g.autoimg.cn/@img/car3/cardfs/series/g31/M03/71/E0/872x666_autohomecar__ChtlyGgHVBeAQLFKAAYy9jru0-0873.png
+SUV,2025-01,39,长安UNI-Z新能源,6877,4.43,11.79-13.39万,https://g.autoimg.cn/@img/car2/cardfs/series/g27/M0B/6C/21/872x666_autohomecar__ChtlxmVUmcCAL0U_AAaz2nx3dKM383.png
+SUV,2025-01,40,缤越,6795,4.55,6.68-9.68万,https://g.autoimg.cn/@img/car3/cardfs/series/g32/M01/E9/8B/872x666_autohomecar__ChxkPmdIDKOAAaLPAAd4wTz9VVQ270.png
+SUV,2025-01,41,唐新能源,6650,4.46,17.98-26.98万,https://g.autoimg.cn/@img/car2/cardfs/series/g32/M06/8F/C1/872x666_autohomecar__ChxkPWcgSDmAKOacAAij6K5NdKY698.png
+SUV,2025-01,42,理想L7,6493,4.56,30.18-35.98万,https://g.autoimg.cn/@img/car3/cardfs/series/g27/M06/1F/55/872x666_autohomecar__ChtlxmgvFKaAGmTaAAV94eOnU7w267.png
+SUV,2025-01,43,iCAR V23,6397,4.60,10.98-14.98万,https://g.autoimg.cn/@img/car2/cardfs/series/g32/M06/C6/3F/872x666_autohomecar__Chtk2Wdg396AQzf1AAglIgGekoc604.png
+SUV,2025-01,44,领克Z20,6368,4.51,13.59-15.09万,https://g.autoimg.cn/@img/car3/cardfs/series/g32/M00/3B/2A/872x666_autohomecar__ChxkPmblQVWAREBaAAZjmyKsUDc151.png
+SUV,2025-01,45,零跑C10,6358,4.54,12.28-16.88万,https://g.autoimg.cn/@img/car2/cardfs/series/g28/M05/D2/DC/872x666_autohomecar__Chtlx2WFZ0qAfTfcAAdfP7WF9sk702.png
+SUV,2025-01,46,元UP,6050,4.46,9.68-11.98万,https://g.autoimg.cn/@img/car3/cardfs/series/g31/M04/B8/EC/872x666_autohomecar__ChtlyGeq9keANi2NAAaoXlveBDQ712.png
+SUV,2025-01,47,汉兰达,5999,4.41,24.98-32.58万,https://g.autoimg.cn/@img/car3/cardfs/series/g4/M14/A4/10/872x666_autohomecar__ChsFVmCKHU-ADhTqAAkrBZpDuRI628.png
+SUV,2025-01,48,零跑C11,5948,4.48,14.88-20.98万,https://g.autoimg.cn/@img/car3/cardfs/series/g28/M05/76/37/872x666_autohomecar__ChsEfV_qkV2AYqpiAAeP1xnjTOY096.png
+SUV,2025-01,49,乐道L60,5912,4.53,20.69-25.59万,https://g.autoimg.cn/@img/car2/cardfs/series/g27/M03/C1/D4/872x666_autohomecar__ChxkmWhT0W6AdPN3AAa0qcDXya8068.png
+SUV,2025-01,50,沃尔沃XC60,5765,4.56,39.69-47.49万,https://g.autoimg.cn/@img/car2/cardfs/series/g28/M09/8A/7D/872x666_autohomecar__ChxkmmSiNQ-AMmK2AAo-tq8rf2g171.png

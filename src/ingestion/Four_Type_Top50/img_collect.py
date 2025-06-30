@@ -8,7 +8,6 @@ from selenium.webdriver.chrome.service import Service
 # 年份和月份列表
 year = '2025'
 months = [f'{i:02d}' for i in range(1, 6)]  # 示例：1 到 5 月
-
 # 类别及其对应链接部分
 category_dict = {
     '轿车': '1-1-1%2C2%2C3%2C4%2C5%2C6',
@@ -18,7 +17,7 @@ category_dict = {
 }
 
 # 输出目录路径（可以修改）
-output_dir = 'D:/大三下/25暑期实训/CarBigData/data_collection1/'
+output_dir = 'D:/大三下/25暑期实训/CarBigData/data_collection2/'
 
 # 定义数据类，新增score和price字段
 class CarSales:
@@ -30,21 +29,31 @@ class CarSales:
         self.sales = ''
         self.score = ''      # 口碑评分
         self.price = ''      # 价格区间
+        self.image_url = ''  # 新增：图片链接
 
 def get_html(url):
     chrome_options = Options()
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--disable-gpu')
 
-    service = Service(r'D:\Tools\ChromeDriver\chromedriver-win64\chromedriver.exe')  # 请替换为你的路径
+    service = Service(r'D:\Tools\ChromeDriver\chromedriver-win64\chromedriver.exe')
     driver = webdriver.Chrome(service=service, options=chrome_options)
 
     try:
         driver.get(url)
-        time.sleep(3)  # 等待加载
+        time.sleep(2)
+
+        # 滚动触发懒加载
+        scroll_height = driver.execute_script("return document.body.scrollHeight")
+        for i in range(0, scroll_height, 500):
+            driver.execute_script(f"window.scrollTo(0, {i});")
+            time.sleep(0.3)
+
+        time.sleep(2)
         return driver.page_source
     finally:
         driver.quit()
+
 
 def parse_html(html, category, year, month):
     soup = BeautifulSoup(html, 'lxml')
@@ -72,6 +81,25 @@ def parse_html(html, category, year, month):
             if '-' in text and '万' in text:
                 price = text
                 break
+        
+        # 新增：提取图片链接（img 标签）
+        # 提取汽车图片链接
+        # 提取真实图片链接（防止出现 base64 占位图）
+                # 提取真实图片链接，支持懒加载
+        img_tag = block.select_one('img.tw-img-placeholder') or block.select_one('img')
+        image_url = ''
+        if img_tag:
+            image_url = (
+                img_tag.get('data-src') or
+                img_tag.get('data-original') or
+                img_tag.get('src') or ''
+            )
+            if image_url.startswith('//'):
+                image_url = 'https:' + image_url
+            if image_url.startswith('data:image'):
+                image_url = ''
+        car.image_url = image_url
+
 
         car.number = num.get_text(strip=True) if num else ''
         car.name = name.get_text(strip=True) if name else ''
@@ -81,16 +109,19 @@ def parse_html(html, category, year, month):
 
         result.append(car)
 
-    return result
+    return result[:50]  # ✅ 限制仅保留Top 50数据
 
 def save_to_csv(car_list, category, year, month):
     output_path = f"{output_dir}{category}_{year}-{month}.csv"
     with open(output_path, 'w', encoding='utf-8', newline='') as f:
         writer = csv.writer(f)
         # 新增口碑评分和价格区间
-        writer.writerow(['类别', '月份', '排名', '车型', '销量', '口碑评分', '价格区间'])
+        writer.writerow(['类别', '月份', '序号', '车型', '销量', '口碑评分', '价格区间', '图片链接'])
         for car in car_list:
-            writer.writerow([car.category, car.month, car.number, car.name, car.sales, car.score, car.price])
+            writer.writerow([
+                car.category, car.month, car.number, car.name,
+                car.sales, car.score, car.price, car.image_url
+            ])
     print(f'✔ 数据已保存到: {output_path}')
 
 # 主程序入口

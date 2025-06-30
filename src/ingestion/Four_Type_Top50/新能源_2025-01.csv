@@ -1,51 +1,51 @@
-类别,月份,排名,车型,销量,口碑评分,价格区间
-新能源,2025-01,01,星愿,28146,4.54,6.88-9.78万
-新能源,2025-01,02,Model Y,25694,4.40,26.35-31.35万
-新能源,2025-01,03,宏光MINIEV,24924,4.45,3.28-9.99万
-新能源,2025-01,04,小米SU7,22897,4.42,21.59-29.99万
-新能源,2025-01,05,银河星舰7 EM-i,20328,4.48,9.78-13.08万
-新能源,2025-01,06,宋PLUS新能源,20138,4.48,13.58-18.08万
-新能源,2025-01,07,秦PLUS,19735,4.48,7.98-17.98万
-新能源,2025-01,08,海鸥,18171,4.52,6.98-8.58万
-新能源,2025-01,09,秦L,16047,4.60,9.98-15.38万
-新能源,2025-01,10,熊猫,15932,4.59,2.99-5.39万
-新能源,2025-01,11,宋Pro新能源,15698,4.45,10.28-14.28万
-新能源,2025-01,12,小鹏MONA M03,15225,4.56,11.98-13.98万
-新能源,2025-01,13,海豹06新能源,14492,4.43,9.98-13.98万
-新能源,2025-01,14,理想L6,13990,4.52,24.98-27.98万
-新能源,2025-01,15,汉,13484,4.42,16.58-25.98万
-新能源,2025-01,16,银河E5,12880,4.52,10.78-14.38万
-新能源,2025-01,17,问界M9,12483,4.66,46.98-56.98万
-新能源,2025-01,18,五菱缤果,12130,4.49,5.68-8.48万
-新能源,2025-01,19,智界R7,11422,4.55,24.98-33.98万
-新能源,2025-01,20,宋L DM-i,10689,4.43,13.58-17.58万
-新能源,2025-01,21,腾势D9,10026,4.53,33.98-60.06万
-新能源,2025-01,22,驱逐舰05,9945,4.52,7.98-13.68万
-新能源,2025-01,23,元PLUS,8902,4.52,11.58-14.78万
-新能源,2025-01,24,问界M7,8443,4.55,24.98-32.98万
-新能源,2025-01,25,小鹏P7+,8114,4.53,18.68-20.88万
-新能源,2025-01,26,Model 3,8009,4.58,23.55-33.95万
-新能源,2025-01,27,长安Lumin,7861,4.53,3.79-6.59万
-新能源,2025-01,28,银河L7,7630,4.45,11.58-16.97万
-新能源,2025-01,29,长安UNI-Z新能源,6877,4.43,11.79-13.39万
-新能源,2025-01,30,唐新能源,6650,4.46,17.98-26.98万
-新能源,2025-01,31,理想L7,6493,4.56,30.18-35.98万
-新能源,2025-01,32,iCAR V23,6397,4.60,10.98-14.98万
-新能源,2025-01,33,领克Z20,6368,4.51,13.59-15.09万
-新能源,2025-01,34,零跑C10,6358,4.54,12.28-16.88万
-新能源,2025-01,35,岚图梦想家,6071,4.54,32.99-44.99万
-新能源,2025-01,36,元UP,6050,4.46,9.68-11.98万
-新能源,2025-01,37,零跑C11,5948,4.48,14.88-20.98万
-新能源,2025-01,38,乐道L60,5912,4.53,20.69-25.59万
-新能源,2025-01,39,深蓝S07,5604,4.49,15.99-19.79万
-新能源,2025-01,40,捷途山海T2,5433,4.55,17.99-23.99万
-新能源,2025-01,41,奔腾小马,5316,4.50,2.49-5.39万
-新能源,2025-01,42,零跑C16,5261,4.55,15.18-18.98万
-新能源,2025-01,43,哈弗猛龙新能源,5043,4.55,16.58-19.28万
-新能源,2025-01,44,坦克500新能源,4959,4.60,33.50-36.38万
-新能源,2025-01,45,AION Y,4851,4.59,9.98-14.58万
-新能源,2025-01,46,阿维塔07,4731,4.52,21.99-28.99万
-新能源,2025-01,47,海豚,4655,4.53,9.98-12.98万
-新能源,2025-01,48,深蓝S05,4645,4.48,11.99-14.59万
-新能源,2025-01,49,银河L6,4526,4.61,7.98-10.68万
-新能源,2025-01,50,零跑T03,4519,4.60,5.99-6.99万
+类别,月份,序号,车型,销量,口碑评分,价格区间,图片链接
+新能源,2025-01,01,星愿,28146,4.54,6.88-9.78万,https://g.autoimg.cn/@img/car2/cardfs/series/g32/M06/53/2E/872x666_autohomecar__ChxkPmaRC0iAQhOeAAYbjdYu9X8904.png
+新能源,2025-01,02,Model Y,25694,4.40,26.35-31.35万,https://g.autoimg.cn/@img/car3/cardfs/series/g31/M06/77/D5/872x666_autohomecar__ChxoHWeS9caAf5JGAAaDqTsVyiE464.png
+新能源,2025-01,03,宏光MINIEV,24924,4.45,3.28-9.99万,https://g.autoimg.cn/@img/car2/cardfs/series/g31/M07/9E/26/872x666_autohomecar__ChtlyGd80_mAfpOMAAhzJpfDwJ4816.png
+新能源,2025-01,04,小米SU7,22897,4.42,21.59-29.99万,https://g.autoimg.cn/@img/car2/cardfs/series/g27/M01/11/01/872x666_autohomecar__ChtlxmWNOgOAXXxmAAYLEp-BYmc978.png
+新能源,2025-01,05,银河星舰7 EM-i,20328,4.48,9.78-13.08万,https://g.autoimg.cn/@img/car3/cardfs/series/g32/M01/3B/24/872x666_autohomecar__ChxkPmblQPiAXZj6AAZPE3cU230496.png
+新能源,2025-01,06,宋PLUS新能源,20138,4.48,13.58-18.08万,https://g.autoimg.cn/@img/car2/cardfs/series/g30/M09/04/73/872x666_autohomecar__ChxknGV4DzSAHG4RAAdLphsVYos293.png
+新能源,2025-01,07,秦PLUS,19735,4.48,7.98-17.98万,https://g.autoimg.cn/@img/car3/cardfs/series/g31/M0B/58/A2/872x666_autohomecar__ChxoHmXVw2qAaWiuAAg1C-bg8-c383.png
+新能源,2025-01,08,海鸥,18171,4.52,6.98-8.58万,https://g.autoimg.cn/@img/car2/cardfs/series/g30/M06/86/A7/872x666_autohomecar__CjIFU2drcTKAVmEvAAbZv39X-1g635.png
+新能源,2025-01,09,秦L,16047,4.60,9.98-15.38万,https://g.autoimg.cn/@img/car3/cardfs/series/g31/M06/B3/5F/872x666_autohomecar__ChxoHWeqtnKAOgObAAehH3gnIrM207.png
+新能源,2025-01,10,熊猫,15932,4.59,2.99-5.39万,https://g.autoimg.cn/@img/car3/cardfs/series/g25/M0B/3F/43/872x666_autohomecar__CjIFV2SiOP6AanH4AArwD9j35Tg115.png
+新能源,2025-01,11,宋Pro新能源,15698,4.45,10.28-14.28万,https://g.autoimg.cn/@img/car2/cardfs/series/g30/M0A/44/B1/872x666_autohomecar__CjIFU2V4D2GAd7pCAAhNZPm_6CA520.png
+新能源,2025-01,12,小鹏MONA M03,15225,4.56,11.98-13.98万,https://g.autoimg.cn/@img/car2/cardfs/series/g32/M01/A7/1A/872x666_autohomecar__Chtk2WbOjc6ANKI3AAi5WZUHzQ0191.png
+新能源,2025-01,13,海豹06新能源,14492,4.43,9.98-13.98万,https://g.autoimg.cn/@img/car3/cardfs/series/g31/M07/A7/E8/872x666_autohomecar__ChxoHmXAj-GASeHTAAXQ1MwtGlE311.png
+新能源,2025-01,14,理想L6,13990,4.52,24.98-27.98万,https://g.autoimg.cn/@img/car2/cardfs/series/g32/M09/5A/8C/872x666_autohomecar__Chtk2WgvFLyARrHKAAUPN8FeUIE427.png
+新能源,2025-01,15,汉,13484,4.42,16.58-25.98万,https://g.autoimg.cn/@img/car2/cardfs/series/g30/M05/18/E7/872x666_autohomecar__ChsFJ2JSj76AcuOOAAg0TVWXz0E905.png
+新能源,2025-01,16,银河E5,12880,4.52,10.78-14.38万,https://g.autoimg.cn/@img/car2/cardfs/series/g31/M06/2A/EA/872x666_autohomecar__ChxoHmYeIFSAbZilAAWZczPqzYs244.png
+新能源,2025-01,17,问界M9,12483,4.66,46.98-56.98万,https://g.autoimg.cn/@img/car3/cardfs/series/g25/M09/96/BE/872x666_autohomecar__ChtliGWKs_aAd5wqAAfvNPmxyyo816.png
+新能源,2025-01,18,五菱缤果,12130,4.49,5.68-8.48万,https://g.autoimg.cn/@img/car3/cardfs/series/g30/M03/04/D8/872x666_autohomecar__ChxknGV4EEGAdC_6AAfVjvUbzRc807.png
+新能源,2025-01,19,智界R7,11422,4.55,24.98-33.98万,https://g.autoimg.cn/@img/car2/cardfs/series/g32/M01/3F/6A/872x666_autohomecar__Chtk2Wbz3AKANjnsAAhNmPKhrPo659.png
+新能源,2025-01,20,宋L DM-i,10689,4.43,13.58-17.58万,https://g.autoimg.cn/@img/car3/cardfs/series/g32/M0B/97/FF/872x666_autohomecar__ChxkPWaiD_KAe4qMAAdGMR1VQ9k810.png
+新能源,2025-01,21,腾势D9,10026,4.53,33.98-60.06万,https://g.autoimg.cn/@img/car2/cardfs/series/g31/M07/31/CC/872x666_autohomecar__ChxoHWXpU8CAcho9AAtC11uVgY8716.png
+新能源,2025-01,22,驱逐舰05,9945,4.52,7.98-13.68万,https://g.autoimg.cn/@img/car2/cardfs/series/g31/M08/35/2F/872x666_autohomecar__ChxoHmW4yg6ABc33AAYuGIYuF_g057.png
+新能源,2025-01,23,元PLUS,8902,4.52,11.58-14.78万,https://g.autoimg.cn/@img/car2/cardfs/series/g31/M01/45/06/872x666_autohomecar__ChxoHmfH_HmASVmOAAeJPWhuAfk369.png
+新能源,2025-01,24,问界M7,8443,4.55,24.98-32.98万,https://g.autoimg.cn/@img/car2/cardfs/series/g32/M08/DD/5C/872x666_autohomecar__ChxkPmbRhumAR_VxAAnhunHYbW4982.png
+新能源,2025-01,25,小鹏P7+,8114,4.53,18.68-20.88万,https://g.autoimg.cn/@img/car3/cardfs/series/g32/M01/49/6C/872x666_autohomecar__Chtk2Wc3BI-AJ6Q-AAYWvGlaV68748.png
+新能源,2025-01,26,Model 3,8009,4.58,23.55-33.95万,https://g.autoimg.cn/@img/car3/cardfs/series/g30/M0A/98/B3/872x666_autohomecar__CjIFU2VuxAiAMliVAAdeidm7fSE232.png
+新能源,2025-01,27,长安Lumin,7861,4.53,3.79-6.59万,https://g.autoimg.cn/@img/car3/cardfs/series/g31/M09/32/31/872x666_autohomecar__ChxoHWgCI9CASsXYAAYTmKfMAyo989.png
+新能源,2025-01,28,银河L7,7630,4.45,11.58-16.97万,https://g.autoimg.cn/@img/car3/cardfs/series/g31/M03/71/E0/872x666_autohomecar__ChtlyGgHVBeAQLFKAAYy9jru0-0873.png
+新能源,2025-01,29,长安UNI-Z新能源,6877,4.43,11.79-13.39万,https://g.autoimg.cn/@img/car2/cardfs/series/g27/M0B/6C/21/872x666_autohomecar__ChtlxmVUmcCAL0U_AAaz2nx3dKM383.png
+新能源,2025-01,30,唐新能源,6650,4.46,17.98-26.98万,https://g.autoimg.cn/@img/car2/cardfs/series/g32/M06/8F/C1/872x666_autohomecar__ChxkPWcgSDmAKOacAAij6K5NdKY698.png
+新能源,2025-01,31,理想L7,6493,4.56,30.18-35.98万,https://g.autoimg.cn/@img/car3/cardfs/series/g27/M06/1F/55/872x666_autohomecar__ChtlxmgvFKaAGmTaAAV94eOnU7w267.png
+新能源,2025-01,32,iCAR V23,6397,4.60,10.98-14.98万,https://g.autoimg.cn/@img/car2/cardfs/series/g32/M06/C6/3F/872x666_autohomecar__Chtk2Wdg396AQzf1AAglIgGekoc604.png
+新能源,2025-01,33,领克Z20,6368,4.51,13.59-15.09万,https://g.autoimg.cn/@img/car3/cardfs/series/g32/M00/3B/2A/872x666_autohomecar__ChxkPmblQVWAREBaAAZjmyKsUDc151.png
+新能源,2025-01,34,零跑C10,6358,4.54,12.28-16.88万,https://g.autoimg.cn/@img/car2/cardfs/series/g28/M05/D2/DC/872x666_autohomecar__Chtlx2WFZ0qAfTfcAAdfP7WF9sk702.png
+新能源,2025-01,35,岚图梦想家,6071,4.54,32.99-44.99万,https://g.autoimg.cn/@img/car3/cardfs/series/g28/M03/AB/72/872x666_autohomecar__Chtlx2gF88iAaz7oAAhEmfkGtOE150.png
+新能源,2025-01,36,元UP,6050,4.46,9.68-11.98万,https://g.autoimg.cn/@img/car3/cardfs/series/g31/M04/B8/EC/872x666_autohomecar__ChtlyGeq9keANi2NAAaoXlveBDQ712.png
+新能源,2025-01,37,零跑C11,5948,4.48,14.88-20.98万,https://g.autoimg.cn/@img/car3/cardfs/series/g28/M05/76/37/872x666_autohomecar__ChsEfV_qkV2AYqpiAAeP1xnjTOY096.png
+新能源,2025-01,38,乐道L60,5912,4.53,20.69-25.59万,https://g.autoimg.cn/@img/car2/cardfs/series/g27/M03/C1/D4/872x666_autohomecar__ChxkmWhT0W6AdPN3AAa0qcDXya8068.png
+新能源,2025-01,39,深蓝S07,5604,4.49,15.99-19.79万,https://g.autoimg.cn/@img/car2/cardfs/series/g31/M02/57/1B/872x666_autohomecar__ChxoHWYqfLWAE3cdAAlQMiP2pTE555.png
+新能源,2025-01,40,捷途山海T2,5433,4.55,17.99-23.99万,https://g.autoimg.cn/@img/car2/cardfs/series/g31/M07/57/43/872x666_autohomecar__ChxoHWYqfbOADlHDAAj4atlLqJU628.png
+新能源,2025-01,41,奔腾小马,5316,4.50,2.49-5.39万,https://g.autoimg.cn/@img/car3/cardfs/series/g31/M02/2F/8F/872x666_autohomecar__ChxoHmYvZpKAVhtxAAactKqbZBU068.png
+新能源,2025-01,42,零跑C16,5261,4.55,15.18-18.98万,https://g.autoimg.cn/@img/car3/cardfs/series/g31/M06/2F/84/872x666_autohomecar__ChxoHWYppDeAFc9pAAmnWehUZP4049.png
+新能源,2025-01,43,哈弗猛龙新能源,5043,4.55,16.58-19.28万,https://g.autoimg.cn/@img/car3/cardfs/series/g30/M07/03/BA/872x666_autohomecar__ChxknGV4DWqAHsAeAAjVNSz-wr0709.png
+新能源,2025-01,44,坦克500新能源,4959,4.60,33.50-36.38万,https://g.autoimg.cn/@img/car2/cardfs/series/g26/M05/80/07/872x666_autohomecar__ChxkjmQ9TiCAF4m5AGSwEpEwJUQ381.png
+新能源,2025-01,45,AION Y,4851,4.59,9.98-14.58万,https://g.autoimg.cn/@img/car3/cardfs/series/g25/M05/1E/69/872x666_autohomecar__ChtliGM2rW2AAKCrAAkX86oWZF0331.png
+新能源,2025-01,46,阿维塔07,4731,4.52,21.99-28.99万,https://g.autoimg.cn/@img/car3/cardfs/series/g31/M07/D4/E1/872x666_autohomecar__ChxoHWY9td2AUPaCAAdo30mtSUI095.png
+新能源,2025-01,47,海豚,4655,4.53,9.98-12.98万,https://g.autoimg.cn/@img/car3/cardfs/series/g31/M02/B8/EB/872x666_autohomecar__ChtlyGeq9jiAReUYAAdKAtoZaRE338.png
+新能源,2025-01,48,深蓝S05,4645,4.48,11.99-14.59万,https://g.autoimg.cn/@img/car3/cardfs/series/g31/M09/80/1A/872x666_autohomecar__ChxoHmZBjWGAFfcqAAdru9xj-NI338.png
+新能源,2025-01,49,银河L6,4526,4.61,7.98-10.68万,https://g.autoimg.cn/@img/car2/cardfs/series/g30/M06/45/32/872x666_autohomecar__CjIFU2V4EJyAa0qEAAZj03xUyII345.png
+新能源,2025-01,50,零跑T03,4519,4.60,5.99-6.99万,https://g.autoimg.cn/@img/car3/cardfs/series/g24/M0B/45/40/872x666_autohomecar__Chtk3WQIIZmABkn0AAIq67kU2c4010.png
