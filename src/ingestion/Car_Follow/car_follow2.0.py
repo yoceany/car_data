@@ -173,6 +173,15 @@ def wait_for_time_window():
         print(f"等待到 0 点，将在 {wait_seconds // 3600} 小时后开始爬取")
         time.sleep(wait_seconds)
 
+def wait_until_next_midnight():
+    now = datetime.now()
+    # 计算下一个 0 点的日期和时间
+    next_midnight = now.replace(hour=0, minute=0, second=0, microsecond=0) + timedelta(days=1)
+    # 计算从当前时间到下一个 0 点的秒数
+    wait_seconds = (next_midnight - now).total_seconds()
+    print(f"等待到第二天 0 点，将在 {wait_seconds // 3600} 小时后开始爬取")
+    time.sleep(wait_seconds)
+
 if __name__ == "__main__":
     while True:
         wait_for_time_window()
@@ -182,10 +191,8 @@ if __name__ == "__main__":
             headers['Cookie'] = f'_ac=2m5f32iqF-OXXs-5r5K5goZL7ylWN3qaD8VECiKjuy1m2jmyzf5S; __ah_uuid_ng=; cookieCityId={url_segment}; series_ask_price_popup=2025-06-26; historyseries=7806%2C66%2C5769%2C7793; ahpvno=24; ahrlid=1750948929674jhFU2xyreL-1750948959590'
             url = f'https://www.autohome.com.cn/rank/2-2001-0-{url_segment}-x-x-x-0_9000.html'
             html = getData(url=url, headers=headers)
-            # print(html)
             ls = analyzeData(html)
-            # print(ls)
             writeToDatabase(ls, city_range)
-        # 爬取完成后，等待到 2 点之后再继续循环
-        while datetime.now().hour < 2:
-            time.sleep(3600)
+        print("所有城市数据爬取完成，等待第二天 0 点再次爬取。")
+        # 等待到第二天 0 点
+        wait_until_next_midnight()
